@@ -1,0 +1,6 @@
+{
+  "name": "Career Discovery",
+  "description": "Discover your future career path, skills, and detailed learning roadmaps styled in a premium deep blue and teal theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  
+  /* Additional dark/deep blue-teal variables for clean palette overrides if needed */
+  --color-brand-deep: #0B192C;
+  --color-brand-navy: #1E3E62;
+  --color-brand-teal: #00D2C4;
+  --color-brand-cyan: #17B890;
+}
+
+body {
+  @apply font-sans bg-[#030712] text-[#F3F4F6] min-h-screen antialiased selection:bg-[#00D2C4]/30 selection:text-[#00D2C4];
+}
+
+/* Custom gorgeous background glows and subtle scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B192C;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E3E62;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00D2C4;
+}
+
